@@ -6,6 +6,7 @@ FLAGS = -Wall -Wextra -Werror
 RM = rm -rf
 
 SRC = main.cpp \
+	tokens/Lexer.cpp \
 	tokens/Tokens.cpp \
 	utils/message.cpp
 

@@ -2,7 +2,8 @@
 
 Tokens::Tokens(const std::string line)
 {
-    if(!line.empty())
+    
+   /* if(!line.empty())
     {
         for (char &c :line)
         {
@@ -11,7 +12,7 @@ Tokens::Tokens(const std::string line)
         _line = line;
     }
     else
-            error("empty");
+            error("empty");*/
 }
 
 void Tokens::processTokens()

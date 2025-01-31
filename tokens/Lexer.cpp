@@ -1,6 +1,6 @@
 #include "Tokens.hpp"
 
-   std::vector<Token>  Lexer::tokenizar()
+   std::vector<Token> Lexer::tokenizar()
    {
         std::vector<Token> tokens;
         
