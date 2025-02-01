@@ -29,16 +29,5 @@ class Lexer
         Token parseLogicalOperator();
 };
 
-class Tokens
-{
-    private:
-    std::string _line;
-        
-    public:
-        Tokens(std::string line);
-        void processTokens();
-        void error(std::string type) const;
-        static void split_tokens(std::string line);
-};
 
 #endif

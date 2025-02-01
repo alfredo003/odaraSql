@@ -7,7 +7,6 @@ RM = rm -rf
 
 SRC = main.cpp \
 	tokens/Lexer.cpp \
-	tokens/Tokens.cpp \
 	utils/message.cpp
 
 OBJ = $(SRC:.cpp=.o)

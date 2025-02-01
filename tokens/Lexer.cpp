@@ -1,4 +1,4 @@
-#include "Tokens.hpp"
+#include "Lexer.hpp"
 
    std::vector<Token> Lexer::tokenizar()
    {
@@ -66,6 +66,7 @@
         std::string value = input.substr(start, pos - start);
 
         static std::unordered_map<std::string, TokenType> keywords = {
+            {"CREATE", TokenType::CREATE},
             {"SELECT", TokenType::SELECT},
             {"FROM", TokenType::FROM},
             {"WHERE", TokenType::WHERE},
