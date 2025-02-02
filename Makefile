@@ -1,4 +1,4 @@
-NAME = youSql
+NAME = odaraSQl
 
 CC = g++
 
