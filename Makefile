@@ -16,6 +16,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 		@$(CC) $(FLAGS) $(OBJ) -o $(NAME)
+		@clear
 
 clean: 
 		@$(RM) $(OBJ)
